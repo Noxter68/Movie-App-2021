@@ -1,0 +1,4 @@
+{
+    "apiUrl" : "https://appmovie2021.herokuapp.com/api",
+    "api" : "https://api.themoviedb.org/3/"
+}
