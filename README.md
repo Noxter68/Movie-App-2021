@@ -4,6 +4,8 @@ This project have been created with the [TMDB API](https://developers.themoviedb
 
 To get the full expérience don't forget to clone the API-APPMovie repository as well.
 
+[Live Project](https://appmovie-2021.herokuapp.com/) 
+
 ![Alt text](/src/img/home.png?raw=true "Optional Title")
 
 # Prerequisites
