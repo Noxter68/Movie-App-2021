@@ -88,13 +88,13 @@ class Movies extends Component {
     const { length: count } = this.state.popMovies;
     const {
       pageSize,
-      currentPageTopRated,
+      currentPagePopular,
       upComingMovies,
       poster_path,
       isLoading,
     } = this.state;
 
-    const AllupComing = paginate(upComingMovies, currentPageTopRated, pageSize);
+    const AllupComing = paginate(upComingMovies, currentPagePopular, pageSize);
     const {user} = this.props;
     return (
       <div>
@@ -108,8 +108,8 @@ class Movies extends Component {
           <ListMovie
             itemsCount={count}
             pageSize={pageSize}
-            currentPage={currentPageTopRated}
-            onPageChange={this.handlePageChangeTopRated}
+            currentPage={currentPagePopular}
+            onPageChange={this.handlePageChangePopular}
             title="Upcoming movies"
             movies={AllupComing}
             path={poster_path}

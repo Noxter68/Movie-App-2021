@@ -12,7 +12,6 @@ const Pagination = (props) => {
     <div className="pagination">
       {pages.map((page) => (
         <a
-          href=""
           className={page === currentPage ? "active" : ""}
           onClick={() => onPageChange(page)}
           key={page}
